@@ -1,0 +1,73 @@
+.container{
+    display: flex; 
+    align-content: center;
+    flex-direction: column;
+    background-color: aliceblue; 
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.Biodata{
+    display: flex;
+    justify-content: center
+}
+body{
+    margin: 30px 30px 30px 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    display: flex; padding: 10px;
+}
+.photo img{
+    width: 150px;
+}
+
+table, tr, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.button-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+.button{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border: none;
+    padding: 10px;
+    box-shadow: 10px;
+    
+}
+.button-click{
+    display: flex;
+    border: none;
+    height: 50px;
+    align-items: center;
+    background-color: #f79f9f;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 150px;
+    justify-content: center;
+    cursor: pointer;
+    
+
+}
+.button-click:hover {
+    background-color: #fe8181;
+}
+.bluefont{
+    color: blue;
+}

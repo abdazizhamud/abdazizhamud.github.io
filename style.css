@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #FFE5CF;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    flex: 1;
+    margin-bottom: 40px;
+}
+.biodata{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.biodata-text{
+    
+}
+.biodata-text h2{
+    border-bottom: 1px solid;
+    display: block;
+    padding-bottom: 10px;
+    
+}
+.tugas h2{
+    border-bottom: 1px solid;
+    display: block;
+    padding-bottom: 10px;
+}
+.biodata-card{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin: 10px;
+    height: 50px;
+    align-items: center;
+    background-color:#FF885B ;
+    text-align: left;
+    width: auto;
+    padding: 0 10px;
+    padding-left: 25px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    background-color: #FF885B;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    
+}
+header{
+    text-align: center;
+    background-color: #557C56;
+    color: white;
+    font-size: 28px;
+    padding: 10px;
+}
+header h2{
+    margin:0;
+}
+.card-tugas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.href-stuff{
+    text-decoration: none;
+    color: inherit;
+}
+.card-tugas-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FF885B;
+    border-radius: 5px ;
+    margin: 10px;
+    padding: 10px 10px;
+    color: #333;
+}
+
+.card-tugas-card h4{
+    margin: 0;
+}
+.card-tugas-card p{
+    margin: 0;
+}
+
+footer{
+    background-color: #557C56;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
