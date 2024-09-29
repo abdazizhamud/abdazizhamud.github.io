@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container{
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(213, 203, 203, 0.1);
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+        .form-group input[type="text"], 
+        .form-group input[type="email"], 
+        .form-group input[type="date"], 
+        .form-group select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .submit-button{
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 2px;
+            border: none;
+        }
+        .submit-button:hover{
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Formulir Pribadi</h2>
+        <form action="hasil.php" method="post">
+            <div class="form-group" >
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat" required>
+            </div>
+            <div class="form-group">
+                <label for="birthplace">Tempat Lahir</label>
+                <input type="text" id="birthplace" name="birthplace" required>
+            </div>
+            <div class="form-group">
+                <label for="tanggaLahir">Tanggal Lahir</label>
+                <input type="date" id="tanggaLahir" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Jenis Kelamin</label>
+                <select name="gender" id="gender">
+                    <option value="Pilih Gender" disabled selected>Pilih Gender</option>
+                    <option value="laki-laki">cowok</option>
+                    <option value="Perempuan">cewek </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="hobi">Hobi</label>
+                <input type="text" id="hobi" name="hobi" required>
+            </div>
+            <input class="submit-button" type="submit" value="Kirim">
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- • Buatlah Web Form, Untuk menginputkan 
+NPM, Nama , Alamat, Tempat Lahir, Tanggal 
+Lahir, Jenis kelamin, Hobi dan tampilkan 
+setelah selesai diinputkan, 
+• Hasil Inputan di display menjadi huruf besar 
+semua untuk Nama dan Alamat
+ • Proses menggunakan PHP -->
