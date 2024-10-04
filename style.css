@@ -22,7 +22,11 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-
+@media screen and (width <= 1000px) {
+    .biodata{
+        grid-template-columns: 1fr  ;
+    }
+}
 .biodata-text{
     
 }

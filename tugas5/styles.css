@@ -1,0 +1,91 @@
+html, body{
+    margin:0;
+    padding:0;
+    font-family: "Varela Round", sans-serif;
+}
+header{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding-left: 50px;
+    font-size: large;
+    width: 100%;
+    background-color: #f7f4e9;
+}
+.table-container{
+    padding-top: 10px;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction:column;
+}
+.title-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.title-section h3{
+    margin:0;
+}
+.asdas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.add-button{
+    display: flex;
+    align-items: center;
+    
+}
+.add-button a{
+    
+}
+.action-button-group{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.eddl{
+    width: 60px;
+}
+.login-container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(213, 203, 203, 0.1);
+}
+.form-group-parent{
+    
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.form-group input[type="text"], 
+.form-group input[type="email"], 
+.form-group input[type="date"], 
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.submit-button{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+}
+.submit-button:hover{
+    background-color: #45a049;
+}
