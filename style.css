@@ -104,7 +104,13 @@ header h2{
 .card-tugas-card p{
     margin: 0;
 }
-
+.cardtugas-double{
+    display: flex;
+    
+}
+.cardtugas-double div{
+    width: 100%;    
+}
 footer{
     background-color: #557C56;
     color: white;
