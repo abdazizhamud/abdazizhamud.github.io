@@ -19,7 +19,11 @@ if(isset($_POST["register"])){
     <link rel="stylesheet" href="styles.css">
 </head>
 <body >
-    <header>Data Mahasiswa <strong> Teknik Informatika</strong></header>
+    <header>
+        <div class="header-pad">
+            Data Mahasiswa Teknik Informatika
+        </div>
+    </header>
     <div class="wrapper">
         <div class="auth-container">
             <form action="" method="post">

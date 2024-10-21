@@ -64,8 +64,8 @@
         }
         $password= password_hash($password, PASSWORD_DEFAULT);
 
-        $query = "INSERT INTO users VALUES ('','$username', '$password','')";
+        $query = "INSERT INTO users VALUES ('','$username', '$password','user')";
         mysqli_query(mysql: $conn, query: $query);
-        mysqli_affected_rows(mysql: $conn);
+        mysqli_affected_rows($conn);
     }
 ?> 
